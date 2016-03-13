@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/kartOyunuOyuncu1"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/kartOyunuOyuncu2"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/kartOyunuOyuncu3"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/kartOyunuOyuncu4"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/kartOyunuOyuncuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oyuncu"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/kartOyunuBilgisayarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bilgisayar"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/kartOyunuBilgisayar1"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/kartOyunuBilgisayar2"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/kartOyunuBilgisayar3"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/kartOyunuBilgisayar4"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:src="@drawable/ic_launcher" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20pt" />
+
+            <Button
+                android:id="@+id/kartOyunuBaslatButonu"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Başlat" />
+
+            <Button
+                android:id="@+id/kartOyunuTamamButonu"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamam" />
+
+            <Button
+                android:id="@+id/kartOyunuKartButonu"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Devam" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

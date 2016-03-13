@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/zarOyuncuTex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oyuncu"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/zarOyuncuBir"
+            android:layout_width="70pt"
+            android:layout_height="70pt"
+            android:src="@drawable/zar" />
+
+        <ImageView
+            android:id="@+id/ZarOyuncuIki"
+            android:layout_width="70pt"
+            android:layout_height="70pt"
+            android:src="@drawable/zar" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/zarBilgisayarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/zarBilgisayarBir"
+            android:layout_width="70pt"
+            android:layout_height="70pt"
+            android:src="@drawable/zar" />
+
+        <ImageView
+            android:id="@+id/zarBilgisayarIki"
+            android:layout_width="70pt"
+            android:layout_height="70pt"
+            android:src="@drawable/zar" />
+
+       
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/zarAtButonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zar At" />
+
+</TableLayout>

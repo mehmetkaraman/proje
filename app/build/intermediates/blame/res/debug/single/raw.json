@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Downloads\\proje\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music.mp3",
+        "source": "C:\\Users\\Administrator\\Downloads\\proje\\app\\src\\main\\res\\raw\\music.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Downloads\\proje\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\Administrator\\Downloads\\proje\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.3.0\\res\\raw\\gtm_analytics"
+    }
+]

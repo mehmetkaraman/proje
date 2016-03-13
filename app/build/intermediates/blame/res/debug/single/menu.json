@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Downloads\\proje\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Administrator\\Downloads\\proje\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Downloads\\proje\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_actions.xml",
+        "source": "C:\\Users\\Administrator\\Downloads\\proje\\app\\src\\main\\res\\menu\\activity_main_actions.xml"
+    }
+]

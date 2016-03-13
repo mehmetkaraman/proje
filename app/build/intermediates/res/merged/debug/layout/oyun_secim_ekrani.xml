@@ -1,0 +1,52 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oynamak İstediğiniz Oyunu Seçiniz"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+    </TableRow>
+
+    <ImageButton
+        android:id="@+id/kartButonu"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+
+    </TableRow>
+
+    <ImageButton
+        android:id="@+id/kilicButonu"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:src="@drawable/kilic" />
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" >
+    </TableRow>
+
+    <ImageButton
+        android:id="@+id/zarButonu"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:src="@drawable/zar" />
+
+</TableLayout>
